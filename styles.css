@@ -69,7 +69,7 @@ nav {
 }
 
 .home-section1 {
-  background-image: url("/img/logo-header.png");
+  background-image: url("img/logo-header.png");
 }
 
 .subpage-section1 {
@@ -300,7 +300,7 @@ header {
   width: 87%;
   height: 90%;
   background-position: 93%;
-  background-image: url(/img/interflora2.jpg);
+  background-image: url("img/interflora2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 36px;
@@ -539,13 +539,13 @@ header {
 }
 
 .case-img-1 {
-  background-image: url("/img/Produktfoto_Matas_Natur_3.jpg");
+  background-image: url("img/Produktfoto_Matas_Natur_3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .case-img-2 {
-  background-image: url("/img/interflora.png");
+  background-image: url(img/interflora.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -690,6 +690,7 @@ header {
 
 .case-con {
   display: flex;
+  width: 50%;
 }
 
 .articletext {
@@ -733,7 +734,7 @@ header {
 
 .img-peter {
   height: 55vh;
-  background-image: url("/img/pts-930x695.jpg");
+  background-image: url("img/pts-930x695.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -741,7 +742,7 @@ header {
 
 .soren-img {
   height: 55vh;
-  background-image: url("/img/Soren-Ravn.jpg");
+  background-image: url("img/Soren-Ravn.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -749,7 +750,7 @@ header {
 
 .img-rambuk {
   height: 55vh;
-  background-image: url("/img/rambuk_vinder_top.jpg");
+  background-image: url("img/rambuk_vinder_top.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -757,7 +758,7 @@ header {
 
 .img-whitepaper {
   height: 55vh;
-  background-image: url("/img/whitepaper.png");
+  background-image: url("img/whitepaper.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -824,7 +825,7 @@ ul {
 }
 
 .facebook {
-  background-image: url("/img/facebook-icon.svg");
+  background-image: url("img/facebook-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 25px;
@@ -833,7 +834,7 @@ ul {
 }
 
 .linkedin {
-  background-image: url("/img/linkedin-icon.svg");
+  background-image: url("img/linkedin-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 4px;
@@ -1088,7 +1089,7 @@ ul {
     width: 87%;
     height: 90%;
     background-position: 93%;
-    background-image: url(/img/interflora2.jpg);
+    background-image: url("img/interflora2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
