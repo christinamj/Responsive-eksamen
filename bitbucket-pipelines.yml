@@ -1,4 +1,4 @@
-image: node:10.15.3
+image: atlassian/default-image:2
 
 pipelines:
   default:
@@ -6,7 +6,7 @@ pipelines:
         name: Deploy to S3 - build
         deployment: Test
         script:
-          - pipe: atlassian/aws-s3-deploy:0.3.5
+          - pipe: atlassian/aws-s3-deploy:0.4.4
             variables:
               AWS_ACCESS_KEY_ID: $EMAIL_PROJECTS_AWS_ACCESS_KEY_ID
               AWS_SECRET_ACCESS_KEY: $EMAIL_PROJECTS_AWS_SECRET_ACCESS_KEY
@@ -14,3 +14,4 @@ pipelines:
               S3_BUCKET: "dk.responsive.website/$BITBUCKET_BRANCH"
               LOCAL_PATH: "."
               ACL: "public-read"
+              EXTRA_ARGS: "--exclude=.git/"
