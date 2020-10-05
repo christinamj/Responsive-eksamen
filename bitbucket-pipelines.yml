@@ -12,6 +12,5 @@ pipelines:
               AWS_SECRET_ACCESS_KEY: $EMAIL_PROJECTS_AWS_SECRET_ACCESS_KEY
               AWS_DEFAULT_REGION: "eu-west-1"
               S3_BUCKET: "dk.responsive.website/$BITBUCKET_BRANCH"
-              LOCAL_PATH: "."
+              LOCAL_PATH: "src"
               ACL: "public-read"
-              EXTRA_ARGS: '--exclude ".git/*" --exclude "bitbucket-pipelines.yml"'
