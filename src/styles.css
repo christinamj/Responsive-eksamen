@@ -139,6 +139,13 @@ nav {
   display: flex;
 }
 
+.section-clients {
+  background-color: #f4f4f4;
+  height: calc(100vh - 75px);
+  width: 100vw;
+  scroll-snap-align: start;
+}
+
 .link-section {
   background-color: #617180;
   height: 50vh;
@@ -163,6 +170,20 @@ nav {
 .link-wrapper h4 {
   font-weight: 400;
   padding-bottom: 20px;
+}
+
+.link-home {
+  background-color: #8b9b8c;
+}
+.link-principles {
+  background-color: #8b9b8c;
+}
+.link-cases {
+  background-color: #8b9b8c;
+}
+
+.link-case {
+  background-color: #8b9b8c;
 }
 
 .section-footer {
@@ -220,13 +241,6 @@ header {
   position: relative;
   margin-left: 5%;
   transition: 0.3s;
-}
-
-.subpage-section1 .entry-content-txt h2 {
-  font-size: 35px;
-  font-weight: 300;
-  padding-bottom: 0;
-  margin-right: 10%;
 }
 
 .entry-content-txt {
@@ -550,6 +564,34 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.case-img-interflora {
+  background-image: url("img/interflora2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 65%;
+}
+
+.case-img-interflora2 {
+  background-image: url("img/interflora3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80%;
+}
+
+.case-img-matas {
+  background-image: url("img/Produktfoto_Matas_Natur_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%;
+}
+
+.case-img-matas2 {
+  background-image: url("img/matas-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20%;
+}
 .case-txt-1,
 .case-txt-2 {
   background-color: #495a57;
@@ -559,9 +601,6 @@ header {
   padding-top: 40px;
 }
 
-.entry-content-txt p {
-  margin-top: 20px;
-}
 .top-1 {
   position: relative;
   /* top: 80px; */
@@ -601,13 +640,13 @@ header {
 }
 
 .top-2 h3 {
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 .case-img {
   width: 30%;
   height: calc(100vh - 75px);
-  background-color: #464646;
+  background-color: #8b9b8c;
 }
 
 .results-con div {
@@ -635,7 +674,7 @@ header {
 .reference {
   padding-right: 10%;
   padding-left: 7%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   color: white;
 }
 
@@ -773,7 +812,7 @@ header {
 
 .about-top {
   height: 50vh;
-  background-color: #617180;
+  background-color: #f4f4f4;
   scroll-snap-align: start;
 }
 
@@ -782,12 +821,29 @@ header {
 
   height: calc(50vh - 75px);
   justify-content: space-between;
+  background-color: #f4f4f4;
 }
 
 .about-top-text {
   position: relative;
   margin-left: 6%;
   top: 80px;
+}
+
+.about-1 {
+  background-color: #8b9b8c;
+
+  color: white;
+}
+
+.about-2 {
+  background-color: #495a57;
+
+  color: white;
+}
+
+.about-3 {
+  background-color: #464646;
   color: white;
 }
 
@@ -803,6 +859,41 @@ header {
 
 .about-cta {
   background-color: #495a57;
+}
+
+.clients-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.clients-col {
+  height: 100vh;
+  flex: 20%;
+  max-width: 20%;
+}
+
+.sub-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.sub-col1,
+.sub-col2 {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.sub-wrap img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: 9vh;
+  padding: 18px;
+}
+.clients-1 {
+  background-color: #3f5366;
 }
 
 .insights-cta {
@@ -1320,6 +1411,13 @@ ul {
     font-weight: 300;
     padding-bottom: 0;
     max-width: 100vw;
+  }
+
+  .subpage-section1 .entry-content-txt h2 {
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-right: 10%;
   }
 
   .burgermenu {
