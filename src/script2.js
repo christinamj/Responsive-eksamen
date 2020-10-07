@@ -11,6 +11,7 @@ function start() {
       p.classList.add("active");
     }
   });
+
   scrollFunction();
   getFooter();
 }
@@ -56,6 +57,7 @@ function scrollFunction() {
   //     document.getElementById("site-header").style.top = "0";
   //   }
 }
+start();
 
 function burgerMenu() {
   // document.querySelector(".section-con").classList.add("hide");
