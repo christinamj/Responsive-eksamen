@@ -24,6 +24,11 @@ function scrollFunction() {
       link.style.color = "black";
       link.style.fontSize = "14px";
     });
+    document.querySelectorAll("nav a").forEach((p) => {
+      if (currentURL.indexOf(p.getAttribute("href")) !== -1) {
+        p.classList.add("active-black");
+      }
+    });
   } else {
     document.getElementById("site-header").style.backgroundColor = "transparent";
     document.querySelector(".burgermenu").style.backgroundImage = "url('img/burger-white.svg')";
@@ -31,6 +36,11 @@ function scrollFunction() {
     document.querySelectorAll(".menupoint").forEach((link) => {
       link.style.color = "white";
       link.style.fontSize = "16px";
+    });
+    document.querySelectorAll("nav a").forEach((p) => {
+      if (currentURL.indexOf(p.getAttribute("href")) !== -1) {
+        p.classList.remove("active-black");
+      }
     });
   }
 
