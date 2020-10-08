@@ -23,7 +23,7 @@ function scrollFunction() {
     document.getElementById("logo").style.backgroundImage = "url('img/responsive-black.png')";
     document.querySelectorAll(".menupoint").forEach((link) => {
       link.style.color = "black";
-      link.style.fontSize = "14px";
+      link.style.fontSize = "15px";
     });
     document.querySelectorAll("nav a").forEach((p) => {
       if (currentURL.indexOf(p.getAttribute("href")) !== -1) {
@@ -36,7 +36,7 @@ function scrollFunction() {
     document.getElementById("logo").style.backgroundImage = "url('img/resposive-white.png')";
     document.querySelectorAll(".menupoint").forEach((link) => {
       link.style.color = "white";
-      link.style.fontSize = "16px";
+      link.style.fontSize = "18px";
     });
     document.querySelectorAll("nav a").forEach((p) => {
       if (currentURL.indexOf(p.getAttribute("href")) !== -1) {
