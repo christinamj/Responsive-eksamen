@@ -20,7 +20,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("site-header").style.backgroundColor = "white";
     document.querySelector(".burgermenu").style.backgroundImage = "url('img/burgermenu-black.svg')";
-    document.getElementById("logo").style.backgroundImage = "url('img/responsive-black.png')";
+    document.getElementById("logo").style.backgroundImage = "url('img/responsive-black.svg')";
     document.querySelectorAll(".menupoint").forEach((link) => {
       link.style.color = "black";
       link.style.fontSize = "15px";
@@ -33,7 +33,7 @@ function scrollFunction() {
   } else {
     document.getElementById("site-header").style.backgroundColor = "transparent";
     document.querySelector(".burgermenu").style.backgroundImage = "url('img/burger-white.svg')";
-    document.getElementById("logo").style.backgroundImage = "url('img/resposive-white.png')";
+    document.getElementById("logo").style.backgroundImage = "url('img/responsive-white.svg')";
     document.querySelectorAll(".menupoint").forEach((link) => {
       link.style.color = "white";
       link.style.fontSize = "18px";
