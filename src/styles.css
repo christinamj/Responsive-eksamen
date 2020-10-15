@@ -2202,7 +2202,7 @@ hr.hr-bottom {
 
   .section-cas-col2 {
     scroll-snap-align: none;
-    height: calc(100vh - 75px);
+    height: 100%;
   }
 
   .section-cas-col1 {
