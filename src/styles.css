@@ -1934,7 +1934,7 @@ hr.hr-bottom {
     width: 150px;
   }
   .section-1 {
-    height: 100vh;
+    height: calc(100vh - 75px);
     width: 100vw;
     scroll-snap-align: none;
   }
