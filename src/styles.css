@@ -1934,7 +1934,7 @@ hr.hr-bottom {
     width: 150px;
   }
   .section-1 {
-    height: calc(100vh - 75px);
+    height: calc(100vh);
     width: 100vw;
     scroll-snap-align: start;
   }
@@ -2105,7 +2105,8 @@ hr.hr-bottom {
   .section-featured-col2,
   .section-featured-col3 {
     min-width: 33.3%;
-    height: calc(100vh - 74px);
+    height: calc(100vh - 75px);
+    scroll-snap-align: start;
   }
 
   .section-featured-text {
@@ -2338,7 +2339,8 @@ hr.hr-bottom {
     background-color: #f4f4f4;
     height: calc(100vh - 75px);
     width: 100vw;
-    scroll-snap-align: none;
+    overflow: hidden;
+    scroll-snap-align: start;
   }
 
   .result2 {
