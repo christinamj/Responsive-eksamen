@@ -2064,9 +2064,14 @@ hr.hr-bottom {
   .section2-txt {
     position: relative;
     top: 46px;
-    height: calc(97vh - 75px);
+    height: calc(100vh - 75px);
   }
-
+  html,
+  body {
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
   .section-2-text p {
     margin-right: 45px;
   }
