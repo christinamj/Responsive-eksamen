@@ -2068,8 +2068,7 @@ hr.hr-bottom {
   }
   html,
   body {
-    scroll-snap-type: y proximity;
-    scroll-behavior: smooth;
+    scroll-snap-type: none;
     scroll-padding-top: 75px;
   }
   .section-2-text p {
