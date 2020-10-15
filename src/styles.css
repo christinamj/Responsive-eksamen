@@ -2068,7 +2068,7 @@ hr.hr-bottom {
   }
   html,
   body {
-    scroll-snap-type: none;
+    scroll-snap-type: y mandatory;
     scroll-padding-top: 75px;
   }
   .section-2-text p {
@@ -2247,8 +2247,9 @@ hr.hr-bottom {
   }
 
   .section-principles-col1 {
-    height: calc(60vh - 75px);
-    scroll-snap-align: start;
+    height: 75vh;
+
+    padding-bottom: 40px;
   }
 
   .section-principles-col2 {
@@ -2343,7 +2344,6 @@ hr.hr-bottom {
     background-color: #f4f4f4;
     height: calc(100vh - 75px);
     width: 100vw;
-    overflow: hidden;
     scroll-snap-align: start;
   }
 
