@@ -2087,7 +2087,7 @@ hr.hr-bottom {
     width: 100%;
     height: calc(55vh - 75px);
     margin-left: 0;
-    scroll-snap-align: end;
+    scroll-snap-align: none;
   }
 
   .section2-image {
