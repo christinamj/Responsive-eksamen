@@ -2068,7 +2068,7 @@ hr.hr-bottom {
   }
   html,
   body {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: none;
     scroll-padding-top: 75px;
   }
   .section-2-text p {
@@ -2211,6 +2211,9 @@ hr.hr-bottom {
 
   .section-cas-col1 {
     scroll-snap-align: start;
+    background-color: #66897d;
+    color: white;
+    margin-top: 5%;
   }
 
   .section-cas-1-text p {
@@ -2344,6 +2347,7 @@ hr.hr-bottom {
     background-color: #f4f4f4;
     height: calc(100vh - 75px);
     width: 100vw;
+    overflow: hidden;
     scroll-snap-align: start;
   }
 
