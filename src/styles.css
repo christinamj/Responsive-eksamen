@@ -2052,7 +2052,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .about-bottom div {
-    padding-left: 5.5%;
+    padding-left: 8%;
     padding-right: 15%;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -2067,7 +2067,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .clients-txt {
     color: white;
-    padding-left: 5.5%;
+    padding-left: 8%;
     position: relative;
     top: 24%;
     padding-right: 17%;
@@ -2085,6 +2085,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-footer {
     padding-top: 18%;
+    padding-left: 8%;
   }
 
   .footer-r {
@@ -2269,7 +2270,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   .section-featured-text {
     position: relative;
     top: 65px;
-    margin-left: 7%;
+    margin-left: 8%;
     color: white;
     max-width: 70%;
   }
@@ -2283,7 +2284,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-exp {
     background-color: #f4f4f4;
-    height: calc(100% - 75px);
+    height: calc(200vh - 75px);
     width: 100vw;
     scroll-snap-align: start;
   }
@@ -2300,13 +2301,13 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     grid-template-columns: auto;
     grid-gap: 20px;
     padding-top: 25px;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 8%;
+    margin-right: 8%;
     scroll-snap-align: none;
   }
 
   .section-exp-col1 {
-    height: calc(70vh - 75px);
+    height: calc(60vh - 75px);
   }
 
   .section-exp-col2 h3 {
@@ -2316,7 +2317,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .section-sector {
-    height: calc(330vh - 75px);
+    height: calc(225vh - 75px);
   }
 
   .section-sector-con {
@@ -2339,12 +2340,22 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-sector-text {
     top: 55px;
-    margin-left: 2%;
+    margin-left: 0;
+  }
+
+  .section-sector-text {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    color: white;
   }
 
   .sector-text {
     height: 100%;
     scroll-snap-align: start;
+    padding-left: 8%;
   }
 
   .article-wrapper {
@@ -2609,6 +2620,27 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     height: 47vh;
   }
 
+  .section-2-text {
+    position: relative;
+    margin-left: 8%;
+  }
+
+  .link-section h3 {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+
+  body > div.section-con > section.section-cas > div > div.section-cas-col1 {
+    background-color: #f4f4f4;
+    color: black;
+  }
+
+  .about-top-text {
+    position: relative;
+    margin-left: 8%;
+    top: 60px;
+  }
+
   @keyframes expand {
     0% {
       transform: translateX(400px);
@@ -2620,6 +2652,53 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-2-container {
     scroll-snap-align: start;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-1 {
+    height: calc(100vh);
+    width: 100vw;
+  }
+
+  .subpage-section1 {
+    height: 60vh;
+  }
+
+  .section-exp {
+    height: calc(230vh - 75px);
+  }
+  .section-sector {
+    height: calc(240vh - 75px);
+  }
+  .section2-txt {
+    position: relative;
+    top: 46px;
+    height: calc(95vh - 75px);
+  }
+
+  .section-2 {
+    height: calc(145vh - 75px);
+  }
+
+  .article-text {
+    padding-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .section-2-text h2 {
+    margin-right: 10%;
+  }
+
+  .section2-txt {
+    position: relative;
+    top: 10px;
+    height: calc(95vh - 75px);
+  }
+
+  .section-2 {
+    height: calc(144vh - 75px);
   }
 }
 
