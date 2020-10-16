@@ -322,12 +322,14 @@ header {
   height: calc(50vh - 75px);
   width: 100vw;
   scroll-snap-align: start;
-  display: flex;
-  justify-content: space-between;
   padding-left: 7%;
   padding-right: 7%;
-  padding-top: 5%;
+  padding-top: 8%;
   color: white;
+  background-image: url("img/footer.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* CTA/LINK SECTION */
@@ -486,6 +488,22 @@ hr.hr-bottom {
   margin-bottom: 30px;
 }
 
+.footer-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-r {
+  height: 110px;
+  width: 100px;
+  background-image: url("img/r.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .article-list-head hr {
   background-color: white;
 }
@@ -1281,20 +1299,22 @@ hr.hr-bottom {
 /* FOOTER */
 
 .section-footer h4 {
-  padding-bottom: 10px;
+  padding-bottom: 18px;
 }
 
 .footer-col1 {
-  min-width: 200px;
+  min-width: 165px;
+  max-height: 100px;
+  margin-right: 15%;
+  padding-right: 0%;
+  border-right: 1px solid #555454;
 }
 
-.facebook {
-  background-image: url("img/facebook-icon.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 25px;
-  width: 22%;
-  transition: all 0.4s ease 0s;
+.section-footer p {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
 }
 
 .linkedin {
@@ -1302,16 +1322,23 @@ hr.hr-bottom {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 4px;
-  height: 21px;
+  height: 17px;
   width: 25%;
   transition: all 0.4s ease 0s;
 }
-
-.facebook:hover {
-  transform: scale(1.2);
-}
 .linkedin:hover {
   transform: scale(1.2);
+}
+
+.footer-col2 {
+  padding-top: 3%;
+  position: relative;
+  max-height: 100px;
+}
+
+.contact-info {
+  position: absolute;
+  bottom: 0;
 }
 
 .social-icons {
@@ -1917,10 +1944,6 @@ hr.hr-bottom {
     padding-top: 10px;
   }
 
-  .section-wrapper {
-    /* scroll-snap-align: start; */
-  }
-
   .entry-hr {
     margin-top: 20px;
     max-width: 100px;
@@ -1941,10 +1964,6 @@ hr.hr-bottom {
 
   .subpage-section1 {
     height: 55vh;
-  }
-
-  .footer-col1 {
-    min-width: 125px;
   }
 
   .footer-col2 {
@@ -2414,7 +2433,7 @@ hr.hr-bottom {
   }
 
   .link-section {
-    height: 45vh;
+    height: 47vh;
   }
 
   @keyframes expand {
