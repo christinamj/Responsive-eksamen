@@ -4,6 +4,7 @@ var prevScrollpos = window.pageYOffset;
 let currentURL = window.location.href;
 
 function start() {
+
   document.querySelector("#close").addEventListener("click", closeBurgerMenu);
   document.querySelector(".burgermenu").addEventListener("click", burgerMenu);
   document.querySelectorAll("nav a").forEach((p) => {
@@ -44,18 +45,6 @@ function scrollFunction() {
       }
     });
   }
-
-  //   var currentScrollPos = window.pageYOffset;
-  //   if (prevScrollpos > currentScrollPos) {
-  //     document.getElementById("site-header").style.top = "0";
-  //   } else {
-  //     document.getElementById("site-header").style.top = "-155px";
-  //   }
-  //   prevScrollpos = currentScrollPos;
-
-  //   if (currentScrollPos == 0) {
-  //     document.getElementById("site-header").style.top = "0";
-  //   }
 }
 start();
 
@@ -84,4 +73,15 @@ async function getFooter() {
 
   //indsætter footer.html ind i <footer></footer> på alle sider.
   document.querySelector(".section-footer").innerHTML = inclusionFooter;
+}
+
+async function getHeader() {
+  //henter footer.html
+  const responseHeader = await fetch("inc/head.html");
+
+  //fortæller at indholdet i footer skal være text
+  const inclusionHeader = await responseHeader.text();
+
+  //indsætter footer.html ind i <footer></footer> på alle sider.
+  document.querySelector("head").innerHTML = inclusionHeader;
 }
