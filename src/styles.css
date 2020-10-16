@@ -211,7 +211,8 @@ header {
 }
 
 .subpage-section1 .entry-content-txt {
-  top: 185px;
+  top: 39%;
+  position: relative;
 }
 
 .entry-content-txt h2 {
