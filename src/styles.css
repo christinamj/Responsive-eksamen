@@ -205,7 +205,7 @@ header {
 .entry-content-txt {
   position: relative;
   top: 26%;
-  margin-left: 5.5%;
+  margin-left: 5.3%;
   max-width: 650px;
   color: white;
 }
@@ -533,7 +533,7 @@ hr.hr-bottom {
 
 .section2-txt {
   position: relative;
-  top: 150px;
+  margin-top: 11%;
 }
 
 .section-2-text {
@@ -646,7 +646,7 @@ hr.hr-bottom {
 .article-list-txt {
   color: white;
   position: relative;
-  top: 90px;
+  top: 35%;
   width: 57%;
   padding-left: 6%;
   padding-right: 0%;
@@ -711,8 +711,8 @@ hr.hr-bottom {
 }
 
 .article-text {
-  padding: 60px;
-  padding-top: 45px;
+  padding: 10%;
+  padding-top: 11%;
   height: 50vh;
   position: relative;
   background-color: #f4f4f4;
@@ -818,6 +818,7 @@ hr.hr-bottom {
   padding-top: 85px;
   margin-left: 4%;
   margin-right: 4%;
+  max-height: 640px;
 }
 
 .section-exp-1-text {
@@ -865,9 +866,9 @@ hr.hr-bottom {
 
 .section-sector-text {
   position: relative;
-  top: 36px;
+  top: 10%;
   width: 57%;
-  padding-left: 5%;
+  padding-left: 5.5%;
   padding-right: 8%;
   color: white;
 }
@@ -1087,7 +1088,7 @@ hr.hr-bottom {
 .section-cas-1-text {
   position: relative;
   margin-left: 5.5%;
-  top: 80px;
+  top: 24%;
 }
 
 .section-cas-1-text p {
@@ -1238,7 +1239,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
 .aboutus-text {
   position: relative;
-  margin-left: 10%;
+  margin-left: 11%;
   top: 90px;
   color: white;
 }
@@ -1375,6 +1376,61 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 }
 
 /* MEDIAQUERYES */
+
+@media only screen and (min-height: 820px) {
+  .section-articles .btn {
+    position: absolute;
+    top: 100;
+    bottom: 26%;
+  }
+}
+
+@media only screen and (min-height: 820px) {
+  .section-articles .btn {
+    position: absolute;
+    top: 100;
+    bottom: 31%;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  .section-articles .btn {
+    position: absolute;
+    top: 100;
+    bottom: 35%;
+  }
+
+  .sector-txt-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: calc(55vh - 75px);
+    margin-right: 4%;
+    margin-left: 4%;
+    padding: 0px;
+    padding-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .case-txt-1,
+  .case-txt-2 {
+    background-color: #375759;
+    color: white;
+    padding: 60px;
+    padding-left: 50px;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 1045px) {
+  .section-sector-text {
+    position: relative;
+    top: 17%;
+    width: 57%;
+    padding-right: 8%;
+    color: white;
+  }
+}
 
 @media only screen and (max-width: 1250px) {
   .section-2-text p {
