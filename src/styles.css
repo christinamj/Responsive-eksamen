@@ -2723,7 +2723,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
 @media only screen and (max-width: 400px) {
   .section-1 {
-    height: calc(100vh);
+    height: calc(100vh - 75px);
     width: 100vw;
   }
 
