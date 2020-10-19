@@ -2772,6 +2772,28 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 }
 
+@media only screen and (min-device-width: 412px) and (max-device-width: 740px) {
+  .col-7 {
+    padding-top: 12%;
+  }
+
+  .section-featured-text {
+    top: 80px;
+  }
+
+  .article-text {
+    padding-top: 12%;
+  }
+
+  .section-cas-1-text {
+    top: 17%;
+  }
+
+  .section-principles-col1 {
+    height: 65vh;
+  }
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   .col-7 {
     width: 100%;
