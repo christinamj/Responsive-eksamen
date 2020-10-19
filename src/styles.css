@@ -2744,7 +2744,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .section-2 {
-    height: calc(145vh - 75px);
+    height: calc(100% - 75px);
   }
 
   .article-text {
