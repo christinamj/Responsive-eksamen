@@ -2688,7 +2688,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .sector-txt-wrap {
     display: grid;
-    grid-template-columns: auto auto auto auto;
     height: calc(55vh - 75px);
     margin-right: 4%;
     margin-left: 8%;
