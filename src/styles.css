@@ -2778,6 +2778,10 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     padding-left: 8%;
     padding-right: 40px;
   }
+
+  .article-text {
+    padding-top: 8%;
+  }
 }
 
 /* iphone x */
