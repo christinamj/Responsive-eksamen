@@ -2303,7 +2303,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     position: relative;
     margin-left: 8%;
     margin-right: 12%;
-    top: 50px;
+    top: 13%;
   }
 
   .section-exp {
@@ -2499,7 +2499,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .article-text {
-    padding-top: 55px;
+    padding-top: 10%;
     padding-left: 8%;
     padding-right: 64px;
     /* max-width: 350px; */
@@ -2748,7 +2748,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .article-text {
-    padding-top: 35px;
+    padding-top: 10%;
   }
 }
 
