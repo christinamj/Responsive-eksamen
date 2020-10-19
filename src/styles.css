@@ -2837,7 +2837,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-2 {
     background-color: #f4f4f4;
-    height: calc(105.8vh - 75px);
+    height: calc(100% - 75px);
     width: 100vw;
     overflow: hidden;
     scroll-snap-align: start;
