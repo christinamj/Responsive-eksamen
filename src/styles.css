@@ -2308,7 +2308,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-exp {
     background-color: #f4f4f4;
-    height: calc(200vh - 75px);
+    height: calc(100% - 75px);
     width: 100vw;
     scroll-snap-align: start;
   }
@@ -2688,11 +2688,20 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .sector-txt-wrap {
     display: grid;
-    height: calc(55vh - 75px);
+    height: calc(100% - 75px);
     margin-right: 4%;
     margin-left: 8%;
     padding: 0px;
     padding-top: 30px;
+  }
+
+  .section-exp-col2 {
+    max-height: 100%;
+  }
+
+  .section-sector {
+    height: calc(240% - 75px);
+    padding-bottom: 10%;
   }
 
   body > div.section-con > section.section-cas > div > div.section-cas-col1 {
@@ -2730,12 +2739,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     height: 60vh;
   }
 
-  .section-exp {
-    height: calc(230vh - 75px);
-  }
-  .section-sector {
-    height: calc(240vh - 75px);
-  }
   .section2-txt {
     position: relative;
     margin-top: 15%;
