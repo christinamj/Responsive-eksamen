@@ -2776,19 +2776,19 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
 @media only screen and (min-device-width: 412px) and (max-device-width: 740px) {
   .col-7 {
-    padding-top: 12%;
+    padding-top: 12% !important;
   }
 
   .section-featured-text {
-    top: 80px;
+    top: 80px !important;
   }
 
   .article-text {
-    padding-top: 12%;
+    padding-top: 12% !important;
   }
 
   .section-cas-1-text {
-    top: 17%;
+    top: 17% !important;
   }
 
   .section-principles-col1 {
