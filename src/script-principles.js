@@ -9,11 +9,13 @@ let customers = "";
 
 function start(){
   fetchModel();
+  document.querySelector(".close-model").classList.add("hide");
+  document.querySelector(".close-model").addEventListener("click", endModel);
 }
 
 
 async function fetchModel(){
-  let response = await fetch("img/principles-model.svg");
+  let response = await fetch("img/principle-green.svg");
   let mySvgData = await response.text();
   document.querySelector(".the-model").innerHTML = mySvgData;
   listen();
@@ -50,7 +52,7 @@ function startGoals(){
 }
 
 function startCustomers(){
-  document.querySelector("#customers").style.fill = "#2B4546";
+  document.querySelector("#customers").style.fill = "#668989";
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".model-con").classList.add("scale-model");
   document.querySelector(".section-principles-text").classList.add("fade-out");
@@ -60,7 +62,7 @@ function startCustomers(){
 }
 
 function startConcept(){
-  document.querySelector("#concept").style.fill = "#2B4546";
+  document.querySelector("#concept").style.fill = "#668989";
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".model-con").classList.add("scale-model");
   document.querySelector(".section-principles-text").classList.add("fade-out");
@@ -70,7 +72,7 @@ function startConcept(){
 }
 
 function startPeople(){
-  document.querySelector("#people").style.fill = "#2B4546";
+  document.querySelector("#people").style.fill = "#668989";
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".model-con").classList.add("scale-model");
   document.querySelector(".section-principles-text").classList.add("fade-out");
@@ -80,7 +82,7 @@ function startPeople(){
 }
 
 function startData(){
-  document.querySelector("#data").style.fill = "#2B4546";
+  document.querySelector("#data").style.fill = "#668989";
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".model-con").classList.add("scale-model");
   document.querySelector(".section-principles-text").classList.add("fade-out");
@@ -90,7 +92,7 @@ function startData(){
 }
 
 function startTech(){
-  document.querySelector("#tech").style.fill = "#2B4546";
+  document.querySelector("#tech").style.fill = "#668989";
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".model-con").classList.add("scale-model");
   document.querySelector(".section-principles-text").classList.add("fade-out");
@@ -104,44 +106,47 @@ function exploreModel(){
   document.querySelectorAll(".model-txt").forEach(text => {
     text.classList.add("hide")
   });
+
+  document.querySelector(".close-model").classList.remove("hide");
+  document.querySelector(".close-model").addEventListener("click", endModel);
   if(goals=="true"){
     console.log("clicked goals")
-    document.querySelector("#goals").style.fill = "#2B4546";
+    document.querySelector("#goals").style.fill = "#668989";
     document.querySelector(".goals-appear").classList.remove("hide");
     document.querySelector(".goals-appear").classList.add("appear");
   }
 
   else if(customers=="true"){
     console.log("clicked customers")
-    document.querySelector("#customers").style.fill = "#2B4546";
+    document.querySelector("#customers").style.fill = "#668989";
     document.querySelector(".customer-appear").classList.remove("hide");
     document.querySelector(".customer-appear").classList.add("appear");
   }
 
   else if(concept=="true"){
     console.log("clicked concept")
-    document.querySelector("#concept").style.fill = "#2B4546";
+    document.querySelector("#concept").style.fill = "#668989";
     document.querySelector(".concept-appear").classList.remove("hide");
     document.querySelector(".concept-appear").classList.add("appear");
   }
 
   else if(people=="true"){
     console.log("clicked people")
-    document.querySelector("#people").style.fill = "#2B4546";
+    document.querySelector("#people").style.fill = "#668989";
     document.querySelector(".people-appear").classList.remove("hide");
     document.querySelector(".people-appear").classList.add("appear");
   }
 
   else if(tech=="true"){
     console.log("clicked people")
-    document.querySelector("#tech").style.fill = "#2B4546";
+    document.querySelector("#tech").style.fill = "#668989";
     document.querySelector(".tech-appear").classList.remove("hide");
     document.querySelector(".tech-appear").classList.add("appear");
   }
 
   else if(data=="true"){
     console.log("clicked people")
-    document.querySelector("#data").style.fill = "#2B4546";
+    document.querySelector("#data").style.fill = "#668989";
     document.querySelector(".data-appear").classList.remove("hide");
     document.querySelector(".data-appear").classList.add("appear");
   }
@@ -172,77 +177,109 @@ function exploreModel(){
 }
 
 function goalsRunning (){
+
+data ="";
+people = "";
+concept = "";
+tech = "";
+customers = "";
   goals = "true";
   modelRunning()
 }
 
 function customersRunning (){
   customers = "true";
+  data ="";
+people = "";
+concept = "";
+tech = "";
+goals = "";
   modelRunning()
 }
 
 function dataRunning (){
+  goals ="";
+people = "";
+concept = "";
+tech = "";
+customers = "";
   data = "true";
   modelRunning()
 }
 
 function peopleRunning (){
+  data ="";
+goals = "";
+concept = "";
+tech = "";
+customers = "";
   people = "true";
   modelRunning()
 }
 
 function techRunning (){
+  data ="";
+people = "";
+concept = "";
+goals = "";
+customers = "";
   tech = "true";
   modelRunning()
 }
 
 function conceptRunning (){
+  data ="";
+people = "";
+goals = "";
+tech = "";
+customers = "";
   concept = "true";
   modelRunning()
 }
 
 function modelRunning (){
+  document.querySelector(".close-model").addEventListener("click", endModel);
   document.querySelectorAll(".model-txt").forEach(text => {
     text.classList.add("hide")
   });
   if(goals=="true"){
     console.log("clicked goals")
-    document.querySelector("#goals").style.fill = "#2B4546";
+    document.querySelector("#goals").style.fill = "#668989";
     document.querySelector(".goals-appear").classList.remove("hide");
     document.querySelector(".goals-appear").classList.add("appear");
   }
 
   else if(customers=="true"){
     console.log("clicked customers")
-    document.querySelector("#customers").style.fill = "#2B4546";
+    document.querySelector("#customers").style.fill = "#668989";
     document.querySelector(".customer-appear").classList.remove("hide");
     document.querySelector(".customer-appear").classList.add("appear");
   }
 
   else if(concept=="true"){
     console.log("clicked concept")
-    document.querySelector("#concept").style.fill = "#2B4546";
+    document.querySelector("#concept").style.fill = "#668989";
     document.querySelector(".concept-appear").classList.remove("hide");
     document.querySelector(".concept-appear").classList.add("appear");
   }
 
   else if(people=="true"){
     console.log("clicked people")
-    document.querySelector("#people").style.fill = "#2B4546";
+    document.querySelector("#people").style.fill = "#668989";
     document.querySelector(".people-appear").classList.remove("hide");
     document.querySelector(".people-appear").classList.add("appear");
   }
 
   else if(tech=="true"){
-    console.log("clicked people")
-    document.querySelector("#tech").style.fill = "#2B4546";
+    console.log("clicked tech")
+    document.querySelector("#tech").style.fill = "#668989";
     document.querySelector(".tech-appear").classList.remove("hide");
     document.querySelector(".tech-appear").classList.add("appear");
   }
 
   else if(data=="true"){
-    console.log("clicked people")
-    document.querySelector("#data").style.fill = "#2B4546";
+    console.log("clicked data")
+    document.querySelector("#data").style.fill = "#668989";
     document.querySelector(".data-appear").classList.remove("hide");
     document.querySelector(".data-appear").classList.add("appear");
   }
@@ -251,9 +288,8 @@ function modelRunning (){
 
 }
 
-
-
 function endModel(){
+  document.querySelector(".close-model").classList.add("hide");
   console.log("end");
   data = "false";
   people = "false";
@@ -263,10 +299,10 @@ function endModel(){
   customers = "false";
   document.querySelector(".the-model").classList.remove("transform-model");
   document.querySelector(".model-con").classList.remove("scale-model");
-  document.querySelector("#goals").style.fill = "D9D9D9";
+  document.querySelector("#goals").style.fill = "#668989";
 
   document.querySelectorAll("#goals, #data, #people, #tech, #customers, #concept").forEach(one => {
-    one.style.fill = "#d9d9d9";
+    one.style.fill = "#375759";
   });
   document.querySelector(".section-principles-text").classList.remove("fade-out");
   document.querySelectorAll(".model-txt").forEach(txt => {
@@ -275,4 +311,5 @@ function endModel(){
 
     txt.classList.add("hide");
   });
+  start()
 }

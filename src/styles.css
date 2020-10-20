@@ -580,6 +580,14 @@ hr.hr-bottom {
   transition: 0.5s;
 }
 
+.close-model {
+  height: 25px;
+  position: relative;
+  left: 80%;
+  margin-top: 20%;
+  width: 40px;
+}
+
 .model-con {
   transition: 0.3s;
 }
