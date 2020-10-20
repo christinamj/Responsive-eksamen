@@ -2231,6 +2231,10 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     padding-top: 10px;
   }
 
+  .model-txt {
+    font-size: 16px;
+  }
+
   .entry-hr {
     margin-top: 20px;
     max-width: 100px;
@@ -2585,7 +2589,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .section-principles {
-    height: calc(160vh - 75px);
+    height: calc(100% - 75px);
   }
 
   .section-principles-col1 h2 {
@@ -2603,7 +2607,42 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 
   .section-principles-col1 p {
-    max-width: 90%;
+    max-width: 100%;
+  }
+
+  .model-click {
+    position: relative;
+    top: 6%;
+    left: 6%;
+    max-width: 70vw;
+  }
+
+  .the-model {
+    width: 65%;
+    margin: auto;
+    top: 27%;
+    left: 17%;
+    position: absolute;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .model-txt {
+    position: relative;
+    top: 27%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 87%;
+    opacity: 0;
+    font-family: "Raleway";
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  @keyframes transform {
+    100% {
+      transform: translateY(65%);
+    }
   }
 
   .section-principles-col1 {
