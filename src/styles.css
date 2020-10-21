@@ -2655,7 +2655,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   .model-click {
     position: relative;
     top: 6%;
-    left: 6%;
+    left: 7%;
     max-width: 70vw;
   }
 
@@ -3113,7 +3113,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   .section-principles-col1 {
     height: 75vh;
     padding-bottom: 40px;
-    background-color: #f4f4f4;
     color: black;
   }
 
@@ -3350,6 +3349,12 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .section-footer {
     padding-top: 32%;
+  }
+
+  .section-2-text {
+    position: absolute;
+    top: 25%;
+    margin-left: 6%;
   }
 
   .about-top-text {
