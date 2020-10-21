@@ -3160,13 +3160,13 @@ svg #concept-g:hover path {
 
   .section-articles .article-text {
     padding: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     height: 52vh !important;
     position: relative;
   }
 
   .section-article-list .article-text {
-    height: 56vh !important;
+    height: 62vh !important;
   }
 }
 
