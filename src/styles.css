@@ -1578,6 +1578,33 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     padding-left: 50px;
     padding-top: 5%;
   }
+
+  .sec-8-txt {
+    padding-right: 23%;
+
+    padding-top: 6%;
+  }
+  .reference {
+    padding-right: 27%;
+  }
+  .case-txt-1,
+  .case-txt-2 {
+    background-color: #375759;
+    color: white;
+    padding: 50px;
+    padding-top: 90px !important;
+  }
+
+  .section-articles .btn {
+    bottom: 30%;
+  }
+
+  .section-articles .article-text {
+    padding: 35px;
+    padding-top: 72px;
+    height: 50vh;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 1045px) {
@@ -1587,17 +1614,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     width: 57%;
     padding-right: 8%;
     color: white;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .case-txt-1,
-  .case-txt-2 {
-    background-color: #375759;
-    color: white;
-    padding: 60px;
-    padding-left: 50px;
-    padding-top: 13%;
   }
 }
 
@@ -3322,5 +3338,127 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   #burger a {
     color: white;
     font-size: 26px;
+  }
+}
+
+@media only screen and (min-height: 800px) {
+  .case-txt-1,
+  .case-txt-2 {
+    background-color: #375759;
+    color: white;
+    padding: 50px;
+    padding-top: 60px;
+  }
+
+  .article-text {
+    padding-top: 17%;
+  }
+
+  .section-exp-col2 div {
+    margin-bottom: 65px;
+  }
+
+  .section2-txt {
+    position: relative;
+    margin-top: 15%;
+  }
+
+  .article-text {
+    padding: 12%;
+  }
+
+  .section-2-text {
+    position: absolute;
+    top: 25%;
+    margin-left: 11%;
+  }
+
+  .section2-txt {
+    position: relative;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  .the-model {
+    width: 48%;
+    margin: auto;
+    top: 90px;
+    position: relative;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .sec-8-txt {
+    padding-right: 23%;
+
+    padding-top: 5%;
+  }
+
+  .reference {
+    padding-right: 10%;
+    padding-left: 7%;
+    padding-bottom: 7%;
+    padding-top: 9%;
+    color: white;
+  }
+
+  .challenge {
+    padding-bottom: 8%;
+  }
+  .reference {
+    padding-right: 27%;
+  }
+  .section-exp-col2 {
+    padding-top: 110px;
+  }
+
+  .section-exp-1-text {
+    top: 110px;
+  }
+
+  .about-top-text {
+    position: relative;
+    margin-left: 5.5%;
+    top: 23%;
+  }
+}
+
+@media only screen and (min-height: 1000px) {
+  .the-model {
+    width: 48%;
+    margin: auto;
+    top: 90px;
+    position: relative;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .article-text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+  }
+
+  .article-text {
+    padding: 12%;
+    padding-top: 20%;
+  }
+
+  .section-exp-col2 div {
+    margin-bottom: 95px;
+  }
+
+  .section-exp-col2 {
+    padding-top: 130px;
+  }
+  .section-exp-1-text {
+    top: 130px;
+  }
+
+  .about-bottom div {
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    padding-top: 7%;
+    width: 33.33%;
   }
 }
