@@ -998,6 +998,7 @@ svg #concept-g:hover path {
   background-repeat: no-repeat;
   background-position-y: 70%;
   width: 50%;
+  display: block;
 }
 
 .section-sector-col1 {
@@ -1883,7 +1884,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     margin-right: 15%;
     margin-bottom: 5%;
     margin-top: 5%;
-}
   }
 
   .section-exp-col2 div {
@@ -1980,7 +1980,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     top: 55px;
     margin-left: 5.5%;
     max-width: 100%;
-
   }
 
   .section-principles-col1 h2 {
@@ -2103,8 +2102,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
     height: calc(100% - 75px);
     margin-bottom: 5%;
     margin-top: 5%;
-}
-  
+  }
 
   .case-con {
     display: flex;
