@@ -3169,6 +3169,19 @@ svg #concept-g:hover path {
     height: 62vh !important;
   }
 }
+/* SE 2020 */
+@media (device-height: 768px) and (device-width: 393px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section-articles .article-text {
+    padding: 30px;
+    padding-top: 20px;
+    height: 52vh !important;
+    position: relative;
+  }
+
+  .section-article-list .article-text {
+    height: 62vh !important;
+  }
+}
 
 /* iphone x */
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
