@@ -418,7 +418,7 @@ header {
 }
 
 .btn-white {
-  margin-top: 20px;
+  margin-top: 30px;
   height: 44px;
   width: 100px;
   border: 1.8px solid white;
@@ -573,7 +573,7 @@ hr.hr-bottom {
 /* MODEL */
 
 .the-model {
-  width: 48%;
+  width: 44%;
   margin: auto;
   top: 60px;
   position: relative;
@@ -609,7 +609,7 @@ hr.hr-bottom {
 
 @keyframes transform {
   to {
-    transform: translateX(-156%);
+    transform: translateX(-170%);
   }
 }
 
@@ -1591,8 +1591,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   .case-txt-2 {
     background-color: #375759;
     color: white;
-    padding: 50px;
-    padding-top: 90px !important;
+    padding: 40px;
   }
 
   .section-articles .btn {
@@ -3203,15 +3202,6 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 }
 
 @media only screen and (min-height: 900px) {
-  .the-model {
-    width: 48%;
-    margin: auto;
-    top: 90px;
-    position: relative;
-    transition: 2s;
-    cursor: pointer;
-  }
-
   .sec-8-txt {
     padding-right: 23%;
 
@@ -3257,8 +3247,8 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   .case-txt-2 {
     background-color: #375759;
     color: white;
-    padding: 70px !important;
-    padding-top: 120px !important;
+    padding: 56px !important;
+    padding-top: 80px !important;
   }
 
   .the-model {
@@ -3284,17 +3274,12 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 }
 
 @media only screen and (min-height: 1000px) {
-  .the-model {
-    width: 48%;
-    margin: auto;
-    top: 90px;
-    position: relative;
-    transition: 2s;
-    cursor: pointer;
-  }
-
   .sector-text {
     padding: 30px;
+  }
+
+  .the-model {
+    top: 150px !important;
   }
 
   .section-exp-col1 {
