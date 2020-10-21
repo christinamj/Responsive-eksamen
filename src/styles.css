@@ -3484,8 +3484,14 @@ svg #concept-g:hover path {
 
   .section2-txt,
   .section2-img {
-    width: 50%;
+    width: 100%;
     height: calc(75vh - 75px);
+  }
+
+  .section-2-text {
+    position: absolute;
+    top: 25%;
+    margin-left: 5%;
   }
 
   .link-section {
