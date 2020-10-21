@@ -504,7 +504,7 @@ hr.hr-bottom {
 }
 
 .footer-r {
-  height: 110px;
+  height: 104px;
   width: 100px;
   background-image: url("img/r.png");
   background-size: contain;
@@ -672,7 +672,7 @@ svg #concept-g:hover path {
 
 .model-click {
   position: relative;
-  top: 10%;
+  top: 12%;
   left: 16%;
   max-width: 50vw;
 }
@@ -968,7 +968,7 @@ svg #concept-g:hover path {
 
 .section-exp-1-text {
   position: relative;
-  margin-left: 15.5%;
+  margin-left: 17.5%;
   margin-right: 16%;
   top: 80px;
 }
@@ -1006,7 +1006,7 @@ svg #concept-g:hover path {
 }
 .section-sector-col1 {
   background-color: #375759;
-  height: 45vh;
+  height: 46vh;
   display: flex;
 }
 
@@ -1327,10 +1327,6 @@ svg #concept-g:hover path {
   padding-top: 5%;
 }
 
-body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
-  top: 230px;
-}
-
 .brands-wrap img {
   width: 125px;
   height: 62px;
@@ -1373,7 +1369,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 }
 
 .insights-cta {
-  background-color: #375759;
+  background-color: #3d6274;
 }
 
 .featured-insights {
@@ -1423,12 +1419,12 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   background-repeat: no-repeat;
 }
 .aboutus-bottom h3 {
-  border-bottom: 2px solid #cd7a58;
+  border-bottom: 2px solid #c8423c;
   width: fit-content;
   position: relative;
   margin-left: 20%;
   top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .aboutus {
@@ -1530,7 +1526,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
 .article-list-head {
   height: calc(50vh - 75px);
-  background-color: #375759;
+  background-color: #26424f;
 }
 
 /* MEDIAQUERYES */
@@ -2312,7 +2308,7 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 
   .about-bottom {
     display: grid;
-    height: calc(128vh - 75px);
+    height: calc(100% - 75px);
   }
 
   .clients-txt {
@@ -3046,6 +3042,113 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   .article-text {
     padding-top: 8%;
   }
+
+  .about-top {
+    height: 70vh;
+    background-color: #f4f4f4;
+  }
+}
+/* IPHONE 5 SE */
+
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section-footer p {
+    font-size: 11px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+  }
+  .entry-content-txt h2 {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .section-2-text h2 {
+    max-width: 100%;
+    font-size: 22px;
+    padding-bottom: 30px;
+    font-weight: 300;
+  }
+
+  .section-featured-text {
+    top: 48px;
+  }
+
+  .article-text h3 {
+    font-size: 22px;
+    max-height: 12vh;
+    margin-bottom: 16px;
+  }
+
+  .btn {
+    margin-top: 24px;
+  }
+
+  .btn-white {
+    margin-top: 24px;
+  }
+
+  h3 {
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .article-text {
+    padding-top: 8%;
+  }
+
+  .col-7 {
+    padding-top: 8%;
+  }
+
+  .section-cas {
+    height: calc(100% - 75px);
+    width: 100vw;
+  }
+
+  .section-principles-col1 {
+    height: 78vh;
+    padding-bottom: 40px;
+  }
+
+  .link-wrapper {
+    position: relative;
+    top: 20%;
+  }
+
+  .link-section h3 {
+    padding-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .section-articles .article-text {
+    padding: 30px;
+    padding-top: 27px;
+    height: 50vh;
+    position: relative;
+    padding-left: 8%;
+  }
+
+  .section-article-list .article-text {
+    height: 58vh;
+  }
+
+  .section-exp-1-text {
+    top: 54px;
+  }
+
+  .about-top {
+    height: 70vh;
+  }
+
+  .about-bottom {
+    display: grid;
+    height: calc(100% - 75px);
+  }
 }
 
 /* iphone x */
@@ -3285,6 +3388,11 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
 @media only screen and (min-height: 1000px) {
   .sector-text {
     padding: 30px;
+  }
+
+  .section2-image {
+    width: 91%;
+    height: 94%;
   }
 
   .the-model {
