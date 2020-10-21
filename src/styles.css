@@ -3170,7 +3170,7 @@ svg #concept-g:hover path {
   }
 }
 /* SE 2020 */
-@media (device-height: 786px) and (device-width: 393px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (device-height: 667px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-articles .article-text {
     padding: 30px;
     padding-top: 20px;
