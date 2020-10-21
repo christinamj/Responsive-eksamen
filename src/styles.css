@@ -3102,7 +3102,15 @@ svg #concept-g:hover path {
   }
 
   .col-7 {
-    padding-top: 8%;
+    padding-top: 5%;
+  }
+
+  .footer-col1 {
+    min-width: 148px;
+    max-height: 100px;
+    margin-right: 15%;
+    padding-right: 0%;
+    border-right: 1px solid #555454;
   }
 
   .section-cas {
