@@ -3273,6 +3273,15 @@ body > div.section-con > section.section-1.subpage-section1.sub-1-about > div {
   }
 }
 
+@media only screen and (min-width: 1600px) {
+  .case-txt-1,
+  .case-txt-2 {
+    background-color: #375759;
+    color: white;
+    padding: 56px !important;
+    padding-top: 120px !important;
+  }
+}
 @media only screen and (min-height: 1000px) {
   .sector-text {
     padding: 30px;
