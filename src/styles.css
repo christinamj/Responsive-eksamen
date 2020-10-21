@@ -3472,10 +3472,20 @@ svg #concept-g:hover path {
 }
 /* ipad */
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .about-1-wrap {
     height: calc(100vh - 74px);
     width: 100%;
+  }
+
+  .section-2 {
+    height: calc(100% - 75px);
+  }
+
+  .section2-txt,
+  .section2-img {
+    width: 50%;
+    height: calc(75vh - 75px);
   }
 
   .link-section {
