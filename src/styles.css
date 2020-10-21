@@ -2112,8 +2112,8 @@ svg #concept-g:hover path {
     display: grid;
     grid-template-columns: auto;
     height: calc(100% - 75px);
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .case-con {
@@ -3494,6 +3494,20 @@ svg #concept-g:hover path {
     margin-left: 5%;
   }
 
+  .model-txt {
+    left: 41%;
+  }
+  @keyframes transform {
+    100% {
+      transform: translateY(90%);
+    }
+  }
+  .about-bottom div {
+    width: 100%;
+    padding-left: 5.5%;
+    padding-right: 28.5%;
+    padding-top: 10%;
+  }
   .link-section {
     height: 48vh;
   }
@@ -3558,7 +3572,7 @@ svg #concept-g:hover path {
   }
 
   .section-exp-col1 {
-    height: calc(40vh - 75px);
+    height: calc(50vh - 75px);
   }
 
   .section-exp-col2 {
@@ -3566,12 +3580,22 @@ svg #concept-g:hover path {
   }
 
   .section-exp {
-    height: calc(115vh - 75px);
+    height: calc(100% - 75px);
+  }
+
+  .section-exp-col2 div {
+    margin-bottom: 30px;
+  }
+
+  .section-sector-col1 {
+    height: 35vh;
   }
 
   .sector-text {
-    height: 18vh;
+    height: 14vh;
     padding-top: 0;
+    padding-left: 5%;
+    padding-right: 19%;
   }
 
   .sector-txt-wrap {
@@ -3627,6 +3651,7 @@ svg #concept-g:hover path {
 
   .sec-8-txt {
     padding-top: 9%;
+    padding-right: 8%;
   }
 
   .case-img-interflora2,
@@ -3636,6 +3661,10 @@ svg #concept-g:hover path {
 
   .section-9 {
     height: calc(89.5vh - 75px);
+  }
+
+  .reference {
+    padding-right: 8%;
   }
 
   .articletext h4 {
