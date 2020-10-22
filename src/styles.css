@@ -828,7 +828,7 @@ svg #concept-g:hover path {
   background-size: cover;
   background-repeat: no-repeat;
 
-  background-position: 20%;
+  background-position-y: 57%;
 }
 
 .article-img3 {
@@ -3360,7 +3360,7 @@ svg #concept-g:hover path {
   }
 
   .challenge {
-    padding-bottom: 8%;
+    padding-bottom: 3%;
   }
   .reference {
     padding-right: 27%;
@@ -3406,7 +3406,7 @@ svg #concept-g:hover path {
   }
 
   .section-articles .btn {
-    bottom: 40%;
+    bottom: 33%;
   }
 
   .section-exp-col2 div {
