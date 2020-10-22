@@ -66,7 +66,7 @@ a:visited {
 }
 
 .menupoint:hover {
-  border-bottom: 1px solid #cd7a58;
+  border-bottom: 1px solid #c8423c;
 }
 
 ul {
@@ -662,7 +662,7 @@ svg #concept-g:hover path {
 .model-txt {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   width: 70%;
   opacity: 0;
@@ -673,8 +673,9 @@ svg #concept-g:hover path {
 
 .model-click {
   position: relative;
-  top: 12%;
+  top: 13%;
   left: 16%;
+  left: 10%;
   max-width: 50vw;
 }
 
@@ -743,7 +744,7 @@ svg #concept-g:hover path {
 
 .section-principles-text {
   position: relative;
-  top: 100px;
+  top: 13%;
   margin-left: 16.5%;
   margin-right: 12%;
 }

@@ -41,6 +41,7 @@ function listen(){
 }
 
 function startGoals(){
+  console.log("goals1")
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelectorAll("svg #goals-g path").forEach(link => {
     link.style.fill = "#668989";
@@ -110,144 +111,102 @@ function exploreModel(){
   document.querySelector(".close-model").addEventListener("click", endModel);
   
   if(goals=="true"){
-    console.log("clicked goals")
+    console.log("clicked goals second")
     document.querySelectorAll("svg #goals-g path").forEach(link => {
       link.style.fill = "#668989";
     });
+    document.querySelector("body").addEventListener("click", function(){
+      goals ="false"
+    })
 
     document.querySelector(".goals-appear").classList.remove("hide");
     document.querySelector(".goals-appear").classList.add("appear");
   }
 
   else if(customers=="true"){
-    console.log("clicked customers")
+    console.log("clicked customers second")
     document.querySelectorAll("svg #customer-g path").forEach(link => {
       link.style.fill = "#668989";
     });
     document.querySelector(".customer-appear").classList.remove("hide");
     document.querySelector(".customer-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      customers ="false"
+    })
   }
 
   else if(concept=="true"){
-    console.log("clicked concept")
+    console.log("clicked concept second")
     document.querySelectorAll("svg #concept-g path").forEach(link => {
       link.style.fill = "#668989";
     });
     document.querySelector(".concept-appear").classList.remove("hide");
     document.querySelector(".concept-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      concept ="false"
+    })
   }
 
   else if(people=="true"){
-    console.log("clicked people")
+    console.log("clicked people second")
     document.querySelectorAll("svg #people-g path").forEach(link => {
       link.style.fill = "#668989";
     });
     document.querySelector(".people-appear").classList.remove("hide");
     document.querySelector(".people-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      people ="false"
+    })
   }
 
   else if(tech=="true"){
-    console.log("clicked people")
+    console.log("clicked tech second")
     document.querySelectorAll("svg #tech-g path").forEach(link => {
       link.style.fill = "#668989";
     });
     document.querySelector(".tech-appear").classList.remove("hide");
     document.querySelector(".tech-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      tech ="false"
+    })
   }
 
   else if(data=="true"){
-    console.log("clicked people")
+    console.log("clicked data second")
     document.querySelectorAll("svg #data-g path").forEach(link => {
       link.style.fill = "#668989";
     });
     document.querySelector(".data-appear").classList.remove("hide");
     document.querySelector(".data-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      data ="false"
+    })
   }
 
   document.querySelector(".close-model").addEventListener("click", endModel);
 
-  document.querySelectorAll("#goals, #goals-2").forEach(link => {
-    link.addEventListener("click", goalsRunning);
+  document.querySelectorAll("#goals-g").forEach(link => {
+    link.addEventListener("click",  modelRunning);
   });
-  document.querySelectorAll("#customers, #customers-2").forEach(link => {
-    link.addEventListener("click", customersRunning);
+  document.querySelectorAll("#customer-g").forEach(link => {
+    link.addEventListener("click",  modelRunning);
   });
-  document.querySelectorAll("#people, #people-2").forEach(link => {
-    link.addEventListener("click", peopleRunning);
+  document.querySelectorAll("#people-g").forEach(link => {
+    link.addEventListener("click",  modelRunning);
   });
-  document.querySelectorAll("#data, #data-2").forEach(link => {
-    link.addEventListener("click", dataRunning);
+  document.querySelectorAll("#data-g").forEach(link => {
+    link.addEventListener("click",  modelRunning);
   });
-  document.querySelectorAll("#tect, #tech-2").forEach(link => {
-    link.addEventListener("click", techRunning);
+  document.querySelectorAll("#tech-g").forEach(link => {
+    link.addEventListener("click",  modelRunning);
   });
-  document.querySelectorAll("#concept, #concept-2").forEach(link => {
-    link.addEventListener("click", conceptRunning);
+  document.querySelectorAll("#concept-g").forEach(link => {
+    link.addEventListener("click",  modelRunning);
   });
-}
-
-function goalsRunning (){
-
-data ="";
-people = "";
-concept = "";
-tech = "";
-customers = "";
-goals = "true";
-  modelRunning()
-}
-
-function customersRunning (){
-customers = "true";
-data ="";
-people = "";
-concept = "";
-tech = "";
-goals = "";
-  modelRunning()
-}
-
-function dataRunning (){
-goals ="";
-people = "";
-concept = "";
-tech = "";
-customers = "";
-data = "true";
-  modelRunning()
-}
-
-function peopleRunning (){
-data ="";
-goals = "";
-concept = "";
-tech = "";
-customers = "";
-people = "true";
-  modelRunning()
-}
-
-function techRunning (){
-data ="";
-people = "";
-concept = "";
-goals = "";
-customers = "";
-tech = "true";
-  modelRunning()
-}
-
-function conceptRunning (){
-data ="";
-people = "";
-goals = "";
-tech = "";
-customers = "";
-concept = "true";
-  modelRunning()
 }
 
 function modelRunning (){
+  console.log("model running")
   document.querySelectorAll("#goals, #data, #people, #tech, #customers, #concept").forEach(one => {
     one.style.fill = "#375759";
   });
@@ -260,6 +219,9 @@ function modelRunning (){
     document.querySelector("#goals").style.fill = "#668989";
     document.querySelector(".goals-appear").classList.remove("hide");
     document.querySelector(".goals-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      goals ="false"
+    })
   }
 
   else if(customers=="true"){
@@ -267,6 +229,9 @@ function modelRunning (){
     document.querySelector("#customers").style.fill = "#668989";
     document.querySelector(".customer-appear").classList.remove("hide");
     document.querySelector(".customer-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      customers ="false"
+    })
   }
 
   else if(concept=="true"){
@@ -274,6 +239,9 @@ function modelRunning (){
     document.querySelector("#concept").style.fill = "#668989";
     document.querySelector(".concept-appear").classList.remove("hide");
     document.querySelector(".concept-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      concept ="false"
+    })
   }
 
   else if(people=="true"){
@@ -281,6 +249,9 @@ function modelRunning (){
     document.querySelector("#people").style.fill = "#668989";
     document.querySelector(".people-appear").classList.remove("hide");
     document.querySelector(".people-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      people ="false"
+    })
   }
 
   else if(tech=="true"){
@@ -288,6 +259,9 @@ function modelRunning (){
     document.querySelector("#tech").style.fill = "#668989";
     document.querySelector(".tech-appear").classList.remove("hide");
     document.querySelector(".tech-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      tech ="false"
+    })
   }
 
   else if(data=="true"){
@@ -295,6 +269,10 @@ function modelRunning (){
     document.querySelector("#data").style.fill = "#668989";
     document.querySelector(".data-appear").classList.remove("hide");
     document.querySelector(".data-appear").classList.add("appear");
+    document.querySelector("body").addEventListener("click", function(){
+      data ="false"
+    })
+
   }
 
   // document.querySelector(".section-principles-col1").addEventListener("click", endModel);
