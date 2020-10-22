@@ -3762,4 +3762,9 @@ svg #concept-g:hover path {
     padding-top: 5%;
     padding-bottom: 6%;
   }
+
+  html,
+  body {
+    max-width: 100vw;
+  }
 }
