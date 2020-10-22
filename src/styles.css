@@ -3768,3 +3768,259 @@ svg #concept-g:hover path {
     max-width: 100vw;
   }
 }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  html,
+  body {
+    scroll-snap-type: none;
+  }
+}
+
+/* Portrait*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  html,
+  body {
+    scroll-snap-type: none;
+  }
+
+  .article-img1,
+  .article-img2 {
+    height: calc(35vh - 75px);
+  }
+
+  .section-cas-1-text {
+    position: relative;
+    margin-left: 5.5%;
+    top: 165px;
+  }
+
+  .section-cas-col2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .case-txt-1,
+  .case-txt-2 {
+    padding: 60px;
+    padding-top: 120px;
+  }
+
+  .case-con {
+    display: flex;
+    width: 100%;
+  }
+
+  .case-con2 {
+    flex-direction: row-reverse;
+  }
+
+  .section-featured-col {
+    min-width: 33.3%;
+    height: calc(65vh - 75px);
+  }
+
+  .section-featured {
+    height: calc(100% - 75px);
+  }
+
+  .article-text {
+    height: 25vh;
+  }
+
+  .section-articles {
+    display: grid;
+    grid-template-columns: auto auto;
+    scroll-snap-align: start;
+  }
+
+  .article-img4,
+  .article-img3,
+  .article-img5,
+  .article-img6 {
+    height: calc(40vh - 75px);
+  }
+
+  .section-articles .article-text {
+    padding: 35px;
+    padding-top: 45px;
+    height: 25vh;
+    position: relative;
+  }
+
+  .section-articles .btn {
+    position: absolute;
+    top: 100;
+    bottom: 20%;
+  }
+
+  .article-list-head {
+    height: calc(40vh - 75px);
+    background-color: #26424f;
+  }
+
+  .article-list-con {
+    grid-template-columns: auto auto auto;
+  }
+
+  .section-article-list .article-text {
+    padding-left: 14%;
+  }
+
+  .section2-txt,
+  .section2-img {
+    width: 100%;
+    height: calc(53vh - 75px);
+  }
+
+  .section-2-container {
+    flex-direction: column;
+  }
+
+  .entry-content-txt {
+    top: 30%;
+  }
+
+  .section-featured-con {
+    flex-direction: column;
+  }
+
+  .section-featured-col1 {
+    min-width: 33.3%;
+    height: calc(35vh - 75px);
+  }
+  .section-featured-text p {
+    max-width: 75%;
+  }
+
+  .section-featured-text {
+    top: 120px;
+    max-width: 100%;
+    margin-left: 5.5%;
+  }
+
+  .section-featured-col2 {
+    height: 100%;
+  }
+
+  @keyframes transform {
+    100% {
+      transform: translateY(80%);
+    }
+  }
+
+  .section-principles-col1 h2 {
+    max-width: 100%;
+  }
+  .section-principles-col1 p {
+    max-width: 100%;
+  }
+
+  .section-principles-text {
+    margin-left: 5.5%;
+
+    width: 69%;
+  }
+
+  .section-principles-col1 {
+    width: 100%;
+    height: calc(37vh - 75px);
+  }
+
+  .section-principles {
+    height: calc(110vh - 75px);
+  }
+
+  .section-principles-con {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .the-model {
+    top: 150px !important;
+
+    width: 80%;
+  }
+
+  .section-principles-col2 {
+    margin: auto;
+  }
+
+  .model-txt {
+    top: 30%;
+  }
+
+  .model-click {
+    left: 7%;
+    top: 9%;
+  }
+
+  .section-principles {
+    height: calc(100% - 75px);
+  }
+
+  .section-exp-con {
+    flex-direction: column;
+  }
+
+  .section-exp-1-text {
+    margin-left: 5.5%;
+  }
+
+  .section-exp-col1 {
+    height: calc(38vh - 75px);
+  }
+
+  .section-exp-col2 {
+    margin-left: 3%;
+    padding-bottom: 5%;
+    padding-top: 7%;
+    max-height: 100%;
+  }
+
+  .sector-txt-wrap {
+    grid-template-columns: auto auto;
+  }
+
+  .section-sector-text {
+    top: 15%;
+  }
+
+  .section-sector {
+    height: calc(100% - 75px);
+  }
+
+  .section-about {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .about-bottom div {
+    padding-right: 4.5%;
+  }
+
+  .about-bottom {
+    height: calc(40vh - 75px);
+  }
+
+  .about-top {
+    height: 33vh;
+  }
+
+  .clients-wrap {
+    flex-direction: column;
+  }
+
+  .clients-1 {
+    width: 100%;
+    height: calc(35vh - 75px);
+  }
+
+  .clients-txt {
+    padding-left: 5.5%;
+  }
+
+  .clients-2 {
+    width: 100%;
+    padding-top: 11%;
+  }
+}
