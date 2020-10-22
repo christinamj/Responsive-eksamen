@@ -592,7 +592,7 @@ hr.hr-bottom {
 }
 
 .model-con {
-  transition: 1s;
+  transition: 2s;
 }
 
 .transform-model {
@@ -603,9 +603,8 @@ hr.hr-bottom {
 
 .transform-back {
   animation-fill-mode: forwards;
-  animation-duration: 3s;
+  animation-duration: 1.2s;
   animation-name: transformback;
-  animation-iteration-count: infinite;
 }
 
 @keyframes transform {
@@ -615,6 +614,9 @@ hr.hr-bottom {
 }
 
 @keyframes transformback {
+  from {
+    transform: translateX(-170%);
+  }
   to {
     transform: translateX(0);
   }
@@ -1278,6 +1280,10 @@ svg #concept-g:hover path {
   height: calc(50vh - 75px);
   justify-content: space-between;
   background-color: #f4f4f4;
+}
+
+.about-bottom h3 {
+  font-size: 25px;
 }
 
 .about-top-text {

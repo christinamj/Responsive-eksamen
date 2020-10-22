@@ -42,6 +42,7 @@ function listen(){
 
 function startGoals(){
   console.log("goals1")
+  document.querySelector(".the-model").classList.remove("transform-back");
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelectorAll("svg #goals-g path").forEach(link => {
     link.style.fill = "#668989";
@@ -56,6 +57,7 @@ function startCustomers(){
   document.querySelectorAll("svg #customer-g path").forEach(link => {
     link.style.fill = "#668989";
   });
+  document.querySelector(".the-model").classList.remove("transform-back");
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".section-principles-text").classList.add("hide");
   customers = "true";
@@ -66,6 +68,7 @@ function startConcept(){
   document.querySelectorAll("svg #concept-g path").forEach(link => {
     link.style.fill = "#668989";
   });
+  document.querySelector(".the-model").classList.remove("transform-back");
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".section-principles-text").classList.add("hide");
   concept = "true";
@@ -76,6 +79,7 @@ function startPeople(){
   document.querySelectorAll("svg #people-g path").forEach(link => {
     link.style.fill = "#668989";
   });
+  document.querySelector(".the-model").classList.remove("transform-back");
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".section-principles-text").classList.add("hide");
   people = "true";
@@ -86,6 +90,7 @@ function startData(){
   document.querySelectorAll("svg #data-g path").forEach(link => {
     link.style.fill = "#668989";
   });
+  document.querySelector(".the-model").classList.remove("transform-back");
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".section-principles-text").classList.add("hide");
   data = "true";
@@ -96,6 +101,7 @@ function startTech(){
   document.querySelectorAll("svg #tech-g path").forEach(link => {
     link.style.fill = "#668989";
   });
+  document.querySelector(".the-model").classList.remove("transform-back");
   document.querySelector(".the-model").classList.add("transform-model");
   document.querySelector(".section-principles-text").classList.add("hide");
   tech = "true";
@@ -290,7 +296,9 @@ function endModel(){
   goals = "false";
   customers = "false";
 
-  document.querySelector(".the-model").classList.remove("transform-model");
+  document.querySelector(".the-model").classList.add("transform-back");
+  document.querySelector(".the-model").classList.remove("transform");
+
   
 
   document.querySelector("#goals").style.fill = "#668989";
