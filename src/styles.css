@@ -3749,4 +3749,17 @@ svg #concept-g:hover path {
   .article-list-con {
     max-width: 100vw;
   }
+
+  .article-list-con {
+    grid-template-columns: auto auto auto;
+  }
+
+  .section-sector {
+    height: calc(100% - 75px);
+  }
+
+  .sector-txt-wrap {
+    padding-top: 5%;
+    padding-bottom: 6%;
+  }
 }
