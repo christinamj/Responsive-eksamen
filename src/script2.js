@@ -51,29 +51,18 @@ function scrollFunction() {
 start();
 
 function burgerMenu() {
-  // document.querySelector(".section-con").classList.add("hide");
   document.querySelector("header").classList.add("hide");
   document.querySelector("#burger").classList.remove("hide");
-  // document.querySelector("#burger").classList.add("fade");
-  // start();
 }
 
 function closeBurgerMenu() {
   document.querySelector("#burger").classList.add("hide");
-
-  // document.querySelector(".section-con").classList.remove("hide");
   document.querySelector("header").classList.remove("hide");
-  // start();
 }
 
 async function getFooter() {
-  //henter footer.html
   const responseFooter = await fetch("inc/footer.html");
-
-  //fortæller at indholdet i footer skal være text
   const inclusionFooter = await responseFooter.text();
-
-  //indsætter footer.html ind i <footer></footer> på alle sider.
   document.querySelector(".section-footer").innerHTML = inclusionFooter;
 }
 
