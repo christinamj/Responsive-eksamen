@@ -288,7 +288,7 @@ header {
 
 .section-9 {
   background-color: #f4f4f4;
-  height: calc(100vh - 75px);
+  height: calc(100% - 75px);
   width: 100vw;
   scroll-snap-align: start;
 }
@@ -406,7 +406,7 @@ header {
 .section-articles .btn {
   position: absolute;
   top: 100;
-  bottom: 19%;
+  bottom: 16%;
 }
 
 .section-2-text .btn p {
@@ -1195,7 +1195,7 @@ svg #concept-g:hover path {
 
 .top-2 {
   width: 70%;
-  height: calc(100vh - 75px);
+  height: calc(100% - 75px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1207,7 +1207,7 @@ svg #concept-g:hover path {
 
 .case-img {
   width: 30%;
-  height: calc(100vh - 75px);
+  height: unset;
   background-color: #8b9b8c;
 }
 
@@ -1236,6 +1236,8 @@ svg #concept-g:hover path {
 .sec-8-txt {
   padding-right: 10%;
   padding-left: 7%;
+
+  padding-bottom: 5%;
 }
 
 .reference {
@@ -1562,7 +1564,7 @@ svg #concept-g:hover path {
   .section-articles .btn {
     position: absolute;
     top: 100;
-    bottom: 35%;
+    bottom: 38%;
   }
 
   .sector-txt-wrap {
@@ -1576,7 +1578,7 @@ svg #concept-g:hover path {
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1500px) {
   .case-txt-1,
   .case-txt-2 {
     background-color: #375759;
@@ -1599,10 +1601,6 @@ svg #concept-g:hover path {
     background-color: #375759;
     color: white;
     padding: 40px;
-  }
-
-  .section-articles .btn {
-    bottom: 30%;
   }
 
   .section-articles .article-text {
@@ -3350,8 +3348,8 @@ svg #concept-g:hover path {
 @media only screen and (min-height: 900px) {
   .sec-8-txt {
     padding-right: 23%;
-
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 8%;
   }
 
   .reference {
@@ -3409,7 +3407,7 @@ svg #concept-g:hover path {
   }
 
   .section-articles .btn {
-    bottom: 33%;
+    bottom: 37%;
   }
 
   .section-exp-col2 div {
