@@ -82,7 +82,6 @@ header {
   z-index: 99;
   display: flex;
   justify-content: space-between;
-
   transition: 0.3s;
 }
 
@@ -170,7 +169,6 @@ header {
 
 .section-1 {
   background-color: #26424f;
-
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -434,7 +432,6 @@ header {
   background-color: #f4f4f4;
   border-color: #f4f4f4 !important;
   transition: all 0.4s ease 0s;
-  color: black;
   font-weight: bold;
 }
 
@@ -579,7 +576,6 @@ hr.hr-bottom {
   top: 60px;
   position: relative;
   transition: 2s;
-
   cursor: pointer;
 }
 
@@ -816,7 +812,6 @@ svg #concept-g:hover path {
 
 .article-img1 {
   height: calc(50vh - 75px);
-
   background-image: url("img/peter-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -828,7 +823,6 @@ svg #concept-g:hover path {
   background-image: url("img/article2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
   background-position-y: 57%;
 }
 
@@ -869,7 +863,7 @@ svg #concept-g:hover path {
 }
 
 .article-text h3 {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-weight: 500;
   font-size: 20px;
   display: -webkit-box;
@@ -905,9 +899,7 @@ svg #concept-g:hover path {
 
 .articletext {
   width: 70%;
-
   padding-left: 5.5%;
-
   padding-right: 8%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -966,7 +958,7 @@ svg #concept-g:hover path {
 .section-exp-col2 {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 0px;
+  grid-gap: 0;
   padding-top: 85px;
   margin-left: 4%;
   margin-right: 4%;
@@ -990,7 +982,7 @@ svg #concept-g:hover path {
   height: calc(55vh - 75px);
   margin-right: 4%;
   margin-left: 4%;
-  padding: 0px;
+  padding: 0;
   padding-top: 30px;
 }
 
@@ -1086,7 +1078,6 @@ svg #concept-g:hover path {
 }
 .insights-bottom {
   display: flex;
-
   height: calc(50vh - 75px);
   justify-content: space-between;
   background-color: #f4f4f4;
@@ -1165,6 +1156,7 @@ svg #concept-g:hover path {
 
 .top-1 {
   position: relative;
+
   /* top: 80px; */
   padding-right: 10%;
   padding-left: 5%;
@@ -1172,6 +1164,7 @@ svg #concept-g:hover path {
 
 .results-con {
   display: flex;
+
   /* padding-top: 100px; */
 }
 
@@ -1236,7 +1229,6 @@ svg #concept-g:hover path {
 .sec-8-txt {
   padding-right: 10%;
   padding-left: 7%;
-
   padding-bottom: 5%;
 }
 
@@ -1281,7 +1273,6 @@ svg #concept-g:hover path {
 
 .about-bottom {
   display: flex;
-
   height: calc(50vh - 75px);
   justify-content: space-between;
   background-color: #f4f4f4;
@@ -1299,13 +1290,11 @@ svg #concept-g:hover path {
 
 .about-1 {
   background-color: #2b4546;
-
   color: white;
 }
 
 .about-2 {
   background-color: #375759;
-
   color: white;
 }
 
@@ -1573,7 +1562,7 @@ svg #concept-g:hover path {
     height: calc(55vh - 75px);
     margin-right: 4%;
     margin-left: 4%;
-    padding: 0px;
+    padding: 0;
     padding-top: 8%;
   }
 }
@@ -1590,7 +1579,6 @@ svg #concept-g:hover path {
 
   .sec-8-txt {
     padding-right: 23%;
-
     padding-top: 6%;
   }
   .reference {
@@ -2350,6 +2338,7 @@ svg #concept-g:hover path {
     background-size: contain;
     margin-top: 43%;
     margin-left: 0%;
+
     /* padding-left: 10%; */
     background-repeat: no-repeat;
   }
@@ -2389,7 +2378,6 @@ svg #concept-g:hover path {
 
   .article-text h3 {
     font-size: 25px;
-
     max-height: 11vh;
     margin-bottom: 20px;
   }
@@ -2718,6 +2706,7 @@ svg #concept-g:hover path {
     background-color: #f4f4f4;
     height: calc(240vh - 75px);
     width: 100vw;
+
     /* scroll-snap-align: start; */
   }
 
@@ -2729,6 +2718,7 @@ svg #concept-g:hover path {
     padding-top: 10%;
     padding-left: 8%;
     padding-right: 64px;
+
     /* max-width: 350px; */
   }
 
@@ -2835,7 +2825,6 @@ svg #concept-g:hover path {
   }
   .section-caseresult {
     height: calc(100% - 75px);
-
     padding-bottom: 10%;
   }
 
@@ -2916,7 +2905,7 @@ svg #concept-g:hover path {
     height: calc(100% - 75px);
     margin-right: 4%;
     margin-left: 8%;
-    padding: 0px;
+    padding: 0;
     padding-top: 30px;
   }
 
@@ -2945,7 +2934,7 @@ svg #concept-g:hover path {
       transform: translateX(400px);
     }
     100% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
   }
 }
@@ -3022,7 +3011,6 @@ svg #concept-g:hover path {
     width: 100%;
     height: 50%;
     padding-top: 6%;
-
     padding-left: 8%;
     padding-right: 40px;
   }
@@ -3057,6 +3045,7 @@ svg #concept-g:hover path {
     background-color: #f4f4f4;
   }
 }
+
 /* IPHONE 5 SE */
 
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -3138,7 +3127,7 @@ svg #concept-g:hover path {
   }
 
   .link-section h3 {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     font-size: 20px;
   }
 
@@ -3178,6 +3167,7 @@ svg #concept-g:hover path {
     height: 62vh !important;
   }
 }
+
 /* SE 2020 */
 @media (device-height: 667px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-articles .article-text {
@@ -3480,6 +3470,7 @@ svg #concept-g:hover path {
     width: 33.33%;
   }
 }
+
 /* ipad */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -3785,7 +3776,7 @@ svg #concept-g:hover path {
   }
 }
 
-/* Portrait*/
+/* Portrait */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   html,
   body {
@@ -3926,7 +3917,6 @@ svg #concept-g:hover path {
 
   .section-principles-text {
     margin-left: 5.5%;
-
     width: 69%;
   }
 
@@ -3946,7 +3936,6 @@ svg #concept-g:hover path {
 
   .the-model {
     top: 150px !important;
-
     width: 80%;
   }
 

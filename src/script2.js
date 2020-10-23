@@ -1,6 +1,5 @@
 window.addEventListener("load", start);
 window.addEventListener("scroll", scrollFunction);
-var prevScrollpos = window.pageYOffset;
 let currentURL = window.location.href;
 
 function start() {
@@ -66,13 +65,3 @@ async function getFooter() {
   document.querySelector(".section-footer").innerHTML = inclusionFooter;
 }
 
-async function getHeader() {
-  //henter footer.html
-  const responseHeader = await fetch("inc/head.html");
-
-  //fortæller at indholdet i footer skal være text
-  const inclusionHeader = await responseHeader.text();
-
-  //indsætter footer.html ind i <footer></footer> på alle sider.
-  document.querySelector("head").innerHTML = inclusionHeader;
-}
