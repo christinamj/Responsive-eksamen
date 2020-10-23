@@ -758,7 +758,8 @@ svg #concept-g:hover path {
 }
 
 .article-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .section-featured-col {
@@ -904,7 +905,9 @@ svg #concept-g:hover path {
 
 .articletext {
   width: 70%;
-  padding-left: 6%;
+
+  padding-left: 5.5%;
+
   padding-right: 8%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -3425,6 +3428,7 @@ svg #concept-g:hover path {
     padding-top: 120px !important;
   }
 }
+
 @media only screen and (min-height: 1000px) {
   .sector-text {
     padding: 30px;
